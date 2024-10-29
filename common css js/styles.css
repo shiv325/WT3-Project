@@ -54,6 +54,8 @@ main {
 
 nav {
     grid-area: nav;
+    border: var(--border-style);
+    border-radius: var(--border-radius);
 }
 
 #logo {
@@ -67,6 +69,7 @@ footer {
     border: var(--border-style);
     grid-area: footer;
     border-radius: var(--border-radius);
+    text-align: center;
 }
 
 #sidebar {
@@ -88,8 +91,7 @@ footer {
 
 .navbtn {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 5px;
-    margin: 10px;
+    margin: 17px;
     background-color: var(--navbtn-color);
     color: var(--main-bg-color);
     font-size: 20px;
@@ -103,6 +105,7 @@ footer {
 .sidebtn {
     background-color: var(--navbtn-color);
     width: 95%;
+    display: block;
     height: 30px;
     text-align: center;
     color: var(--main-bg-color);
