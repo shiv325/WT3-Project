@@ -29,21 +29,21 @@ body{
 }
 
 #content1 {
-    border: var(--border-style);
     grid-area: content1;
-    border-radius: var(--border-radius);
 }
 
 #content2 {
-    border: var(--border-style);
     grid-area: content2;
-    border-radius: var(--border-radius);
 }
 
 #content3 {
-    border: var(--border-style);
     grid-area: content3;
+}
+
+.contents {
+    border: var(--border-style);
     border-radius: var(--border-radius);
+    text-align: center;
 }
 
 main {
@@ -155,4 +155,16 @@ footer {
 
 main {
     text-align: center;
+}
+
+img {
+    width: 80%;
+}
+
+table {
+    margin: auto;
+}
+
+ul {
+    text-align: left;
 }

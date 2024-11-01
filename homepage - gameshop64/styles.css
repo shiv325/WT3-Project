@@ -1,0 +1,54 @@
+:root {
+    --main-bg-color: #010221;
+    --main-text-color: #ffffff;
+    --border-style: 3px solid var(--border-elements-color);
+    --border-elements-color: #ffff00;
+    --border-radius: 10px;
+    --navbtn-color: #eeeeee;
+}
+
+body{
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: Verdana, Geneva, Tahoma, 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 15px;
+    background-image: url("../logos\ and\ favicons/gameshop64\ favicon.png");
+    background-position-x: center;
+    background-position-y: 13%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+#btn {
+    background-color: var(--navbtn-color);
+    font-size: 20px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    text-decoration: solid;
+    align-items: center;
+    position: absolute;
+    left: 40.5%;
+    top: 80%;
+    border-style: var(--border-style);
+}
+
+#btn:hover {
+    background-color: var(--main-text-color);
+    border-radius: 10px;
+}
+
+div {
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+}
+
+h3 {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
